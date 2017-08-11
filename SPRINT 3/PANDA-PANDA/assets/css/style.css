@@ -1,0 +1,109 @@
+/*
+Colores & tipografía:
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Escribe tu código acá debajo */ 
+ 
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+
+/* seccion menu */
+body{
+    background-color: #ABE188;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:  #F78E69;
+}
+
+li{
+	float: right;
+	margin: 0px 0px 0px 30px;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	font-family: Roboto;
+}
+
+li a:hover:not(.active){
+	background-color: #ABE188;
+}
+
+.active{
+	background-color: #2c818b;
+}
+
+
+/* Seccion Pictures */
+
+.Pictures{
+	background-size: cover; /*cubre todo el elemento*/
+	background-position: center;
+	background-color: #ABE188;
+	padding: 50px 0; /*relleno*/
+	margin: 5px 0;
+}
+.pandaImg{
+	
+	background-position: center;
+    padding-right: 0 5px;
+	border: 10px solid #eeeeee;
+	margin-right: 30px;
+	float: right;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition: filter 0.4s;
+	-webkit-transition:-webkit-filter 1s;
+}
+
+/* Seccion Button Clicleable */
+
+#menus div{
+	width: 200px;
+	height: 30px;
+	margin: 5px;
+	background-color: #ff5722;
+	display: inline-block;
+	background-position: center;
+	font-family: Roboto;
+}
+
+/* Secction textos */
+
+.texto{
+	width: 400px;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-color: : 10px solid white;
+	float: left;
+
+
+}
+
+.texto3, .texto4{
+	float: right;
+    display: block;
+}
+
+/* Footer */
+footer{
+	color: white;
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+}
